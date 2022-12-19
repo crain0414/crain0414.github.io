@@ -1,0 +1,881 @@
+@media all and (min-width: 1200px){
+
+    #wrap{
+        width: 100%;
+        /* height: 4850px; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mainpage_wrap{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .mainpage{
+        float: left;
+    }
+
+    /* section01 */
+
+    section{
+        width: 100%;
+        height: 970px;
+        position: relative;
+        float: left;
+    }
+
+    /* #sec01{
+        background-color: #C99E67;
+    } */
+
+    #main_bg{
+        width: 1048px;
+        /* background-color: lightblue; */
+    }
+
+    #main_bg_shadow img{
+        margin-top: 120px;
+        margin-left: 447px;
+        position: relative;
+        z-index: -2;
+
+    }
+
+    #main_bg img{
+        position: absolute;
+        top: 120px;
+        left: 436px;
+        z-index: 1;
+    }
+
+    #main_bg_shadow img{
+        margin-top: 120px;
+        margin-left: 447px;
+        position: relative;
+        z-index: -2;
+    }
+
+    #main_bg img{
+        position: absolute;
+        top: 120px;
+        left: 436px;
+        z-index: 1;
+    }
+
+    #text_box01{
+        text-align: center;
+        font-size: 34px;
+        font-family: 'GmarketSansLight';
+        color: #fff;
+        position: absolute;
+        top: 300px;
+        left: 624px;
+        z-index: 1;
+    }
+
+    #text_box01>p>span{
+        font-size: 40px;
+        font-family: 'GmarketSansMedium'
+    }
+
+    #text_box02{
+        width: 260px;
+        height: 60px;
+        background-color: #B4B9BC;
+        text-align: center;
+        font-size: 34px;
+        font-family: 'GmarketSansMedium';
+        color: #3E4B51;
+        position: absolute;
+        top: 410px;
+        left: 826px;
+        z-index: 1;
+    }
+
+    #text_box02>p{
+        margin-top: 14px;
+    }
+
+    #badge{
+        width: 318px;
+        height: 318px;
+        /* background-color: seashell; */
+        position: absolute;
+        top: 540px;
+        left: 816px;
+        z-index: 1;
+    }
+
+    #main_index_wrap{
+        width: 170px;
+        /* height: 236px; */
+        /* background-color: lightgoldenrodyellow; */
+        position: absolute;
+        top: 360px;
+        right: 388px;
+    }
+
+    .main_index{
+        width: 170px;
+        height: 58px;
+        margin-bottom: 30px;
+    }
+
+    .main_index img{
+        width: 170px;
+        height: 58px;
+        z-index: 1;
+    }
+
+    .main_index>p{
+        width: 145px;
+        height: 23px;
+        font-size: 20px;
+        font-family: 'GmarketSansMedium';
+        text-align: right;
+        color: #fff;
+        position: relative;
+        top: -45px;
+        left: 5px;
+    }
+   
+    .main_index>p>span{
+        margin-right: 18px;
+    }
+
+    .main_index:hover{
+        margin-left: 110px;
+        transition: 0.5s;
+    }
+
+    .main_index>p:hover{
+        color: #000;
+    }
+
+    .index{
+        width: auto;
+        /* height: auto; */
+        /* background-color: lightpink; */
+        cursor: pointer;
+    }
+    
+    /* section02 */
+    
+    .sub_bg img{
+        /* width: 1514px;
+        height: 864px; */
+        /* background-color: lightgray; */
+        /* position: absolute; */
+        margin-top: 38px;
+        margin-left: 293px;
+    }
+
+    /* pop */
+    #pop_wrap{
+        width: 1000px;
+        height: 640px;
+        background-color: #fff;
+        position: absolute;
+        top: 63px;
+        left: 57px;
+        z-index: 2;
+        display: none;
+    }
+
+    .line{
+        width: 1000px;
+        height: 15px;
+        background-color: #C99E67;
+        position: absolute;
+    }
+
+    .top{
+        top: 0;
+    }
+
+    .bottom{
+        bottom: 0;
+    }
+
+    #title{
+        font-size: 30px;
+        font-family: 'GmarketSansMedium';
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    #skill_box{
+        width: 815px;
+        height: 485px;
+        /* background-color: slateblue; */
+        position: relative;
+        top: 45px;
+        left: 94px; 
+    }
+
+    .skill{
+        float: left;
+        margin-right: 30px;
+    }
+
+    .skill:nth-child(3){
+        margin-right: 0
+    }
+
+    .skill_text{
+        width: 150px;
+        height: 38.5px;
+        font-size: 18px;
+        font-family: 'GmarketSansMedium';
+        text-align: center;
+        line-height: 42px;
+        border-top: 3px solid #C99E67;
+        border-bottom: 3px solid #C99E67;
+        margin: 0 auto;
+        position: absolute;
+        top: 100px;
+    }
+
+    .text01{
+        left: 50px;
+    }
+
+    .text02{
+        left: 330px;
+    }
+
+    .text03{
+        right: 50px; 
+    }
+
+    .check_list{
+        width: auto;
+        height: auto;
+        /* background-color: seagreen; */
+        float: left;
+        position: absolute;
+        top: -50px;
+        left: 0;
+    }
+
+    .list_wrap>p{
+        font-size: 14px;
+        font-family: 'GmarketSansMedium';
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 24px;
+        margin-top: 5px;
+    }
+
+    .list_wrap>p:before{
+        width: 20px;
+        height: 25px;
+        background: url(../img/list_icon.png) center/cover;
+        display: block;
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -40px;
+    }
+
+    #list01{
+        top: 205px;
+        left: 99px;
+    }
+
+    #list02{
+        top: 205px;
+        left: 374px;
+    }
+
+    #list03{
+        top: 205px;
+        left: 655px;
+    }
+
+    #button{
+        width: 60px;
+        height: 30px;
+        border: 3px solid #000;
+        position: absolute;
+        right: 10px;
+        bottom: 30px;
+        text-align: center;
+        font: 14px/30px '';
+        cursor: pointer;
+    }
+
+    #button:hover{
+        font-weight: 900px;
+    }
+
+    /* pop end */
+
+    .paper{
+        width: 1111px;
+        height: 640px;
+        /* background-color: lightblue; */
+        position: absolute;
+        top: 98px;
+        left: 403px;
+    }
+
+    .page>img{
+        width: 544px;
+        height: 774px;
+        /* background-color: gold; */
+    }
+
+    #my_photo{
+        float: left;
+    }
+
+    #memo{
+        float: right;
+    }
+
+    #moto{
+        font-size: 20px;
+        font-family: 'GmarketSansMedium';
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 100px;
+        left: 98px;
+    }
+
+    #in_memo{
+        position: absolute;
+        top: 170px;
+        left: 680px;
+    }
+
+    #top_memo{
+        width: 340px;
+        height: 58px;
+        background-color: #5D5D56;
+    }
+
+    #bottom_memo{
+        width: 340px;
+        height: 400px;
+        background-color: #EDD1B4;
+        font-family: 'GmarketSansMedium';
+    }
+
+    .memo_box{
+        width: 280px;
+        /* background-color: gold; */
+        margin-bottom: 30px;
+        margin-left: 35px;
+        font-size: 14px;
+    }
+
+    .memo_box>p{
+        font-family: 'GmarketSansLight';
+    }
+
+    .memo_box>p>span{
+        font-family: 'GmarketSansMedium';
+    }
+
+    .memo_box:nth-child(1){
+       padding-top: 46px;
+    }
+
+    #skill_btn{
+        /* background-color: sandybrown; */
+        position: relative;
+    }
+
+    #skill_btn img{
+        width: 270px;
+        margin-left: 35px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    #skill_btn>p{
+        font-size: 16px;
+        position: absolute;
+        top: 16px;
+        left: 139px;
+        cursor: pointer;
+    }
+
+    #skill_btn>p:hover{
+        color: #fff;
+    }
+
+    #sticker{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #EAD3D9;
+        position: absolute;
+        top: -25px;
+        right: -25px;
+    }
+
+    .ring img{
+        width: 78px;
+        position: absolute;
+        top: 106px;
+        left: 518px;
+    }
+
+    #sub_index_wrap{
+        width: auto;
+        /* height: 216px; */
+        /* background-color: lightgreen; */
+        position: absolute;
+        top: 70px;
+        left: 1111px;
+    }
+
+    .sub_index>p{
+        font-size: 17px;
+        font-family: 'GmarketSansMedium';
+        text-align: center;
+        position: relative;
+        top: -45px;
+        left: -1px;
+        color: #fff;
+    }
+
+    .sub_index>p:hover{
+        color: #000;
+    }
+
+    /* section03 */
+        
+    /* #sec03{
+        background-color: lightpink;
+    } */
+    
+    #renewal_website{
+        float: left;
+    }
+
+    #concept_ticket{
+        float: right;
+    }
+
+    .click_wrap{
+        width: 1111px;
+        height: 339px;
+        /* background-color: lightblue; */
+        /* display: none; */
+        position: absolute;
+        top: 218px;
+        left: 0;
+        /* display: none; */
+    }
+
+    #click02{
+        /* background-color: lightpink; */
+        display: none;
+    }
+
+    .title{
+        font-size: 24px;
+        font-family: 'GmarketSansMedium';
+        position: absolute;
+        top: 0;
+        left: 102px;
+    }
+
+    .title span{
+        font-size: 30px;
+    }
+
+    #sub_title01 img{
+        width: 120px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 148px;  
+    }
+
+    #sub_title01>p{
+        font-size: 18px;
+        font-family: 'GmarketSansMedium';
+        color: #fff;
+        position: absolute;
+        top: 5px;
+        left: 172px; 
+    }
+
+    #sub_title02 img{
+        width: 224px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 155px;  
+    }
+
+    #sub_title02>p{
+        font-size: 18px;
+        font-family: 'GmarketSansMedium';
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 174px; 
+    }
+
+    #website_wrap{
+        position: absolute;
+        top: 88px;
+        left: 102px;
+    }
+
+    #concept{
+        position: absolute;
+        top: 80px;
+        right: 26px;
+    }
+
+    #concept_text{
+        width: 452px;
+        height: 150px;
+        /* background-color: lightblue; */
+        position: absolute;
+        top: 23px;
+        left: 14px;
+        font-size: 11px;
+        font-family: 'GmarketSansMedium';
+    }
+
+    #top_box{
+        width: 340px;
+        height: 60px;
+        /* background-color: gold; */
+    }
+
+    #top_box>p{
+        margin-bottom: 10px;
+    }
+
+    #text_line{
+        width: 340px;
+        background-color: #707070;
+        height: 1px;
+        position: absolute;
+        top: 38px;
+        left: 0;
+    }
+
+    #bottom_box{
+        width: 340px;
+        height: 50px;
+        /* background-color: gold; */
+        position: absolute;
+        bottom: 0;
+    }
+
+    .p_wrap{
+        width: 140px;
+        height: 50px;
+        /* background-color: blanchedalmond; */
+        float: left;
+    }
+
+    #p_wrap01{
+        float: left;
+    }
+
+    #p_wrap02{
+        float: right;
+    }
+
+    #p_wrap01>p{
+        float: left;
+        margin-top: 10px;
+    }
+
+
+    #p_wrap02>p{
+        float: right;
+        margin-top: 34px;
+    }
+
+    #right_box{
+        width: 80px;
+        height: 130px;
+        /* background-color: lightpink; */
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #right_box>p{
+        width: 115px;
+        height: 13px;
+        /* background-color: skyblue; */
+        font-size: 11px;
+        font-family: 'GmarketSansMedium';
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 65px;
+        left: 10px;
+    }
+
+    #bookmark{
+        width: 125px;
+        height: 525px;
+        /* background-color: gold; */
+        position: absolute;
+        top: 0;
+        left: 84px;
+    }
+
+    #line{
+        width: 2px;
+        height: 634px;
+        background-color: #000;
+        margin-left: 62px;
+    }
+
+    #img_wrap{
+        width: 125px;
+        height: 425px;
+        /* background-color: lightseagreen; */
+        position: absolute;
+        top: 160px;
+        left: 0;
+    }
+
+    .con{
+        width: 125px;
+        height: 125px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .one_box{
+        width: 125px;
+        height: 125px;
+        background-color: #000;
+        border-radius: 50%;
+        opacity: 15%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: 125px;
+    }
+
+    .con:hover{
+        transform: rotateY(360deg);
+        transition: 1s;
+        cursor: pointer;  
+    }
+
+    #taesul_wrap{
+        width: 28px;
+        height: 140px;
+        /* background-color: gold; */
+        position: relative;
+        left: 49.5px;
+    }
+
+    /* section04*/
+
+    /* #sec04{
+        background-color: lightgreen;
+    } */
+
+    #app_design{
+        float: left;
+    }
+
+    #renewal_layout{
+        float: right;
+    }
+
+    .title_box{
+        width: 450px;
+        /* background-color: lightgrey; */
+        font-size: 12px;
+        font-family: 'GmarketSansMedium';
+    }
+
+    .title_box>p{
+        font-family: 'GmarketSansLight';
+    }
+
+    #title_box01{
+        float: left;
+        position: absolute;
+        top: 52px;
+        left: 40px;
+    }
+
+    #title_box02{
+        float: right;
+        position: absolute;
+        top: 52px;
+        right: 42px;
+    }
+
+    .title02{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    #app_wrap{
+        width: 437px;
+        /* background-color: gold; */
+        position: absolute;
+        top: 206px;
+        left: 40px;
+    }
+
+    #app_wrap img{
+        /* width: 216px;
+        height: 467px; */
+        /* margin-right: 5px; */
+        float: left;
+    }
+
+    #app_wrap img:nth-child(1){
+        margin-right: 5px;
+    }
+
+    #layout_wrap{
+        width: 245px;
+        height: 641px;
+        /* background-color: gold; */
+        position: absolute;
+        top: 135px;
+        right: 144px;
+    }
+
+    #hand_icon{
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        /* background-color: turquoise; */
+        color: #fff;
+        position: absolute;
+        top: 470px;
+        right: 200px;
+        animation: move 0.5s ease-out;
+    }
+
+    @keyframes move{
+
+        from{
+            right: 180px;
+            /* opacity: 0; */
+        }
+        to{
+            right: 190px;
+            /* opacity: 1; */
+        }
+    
+    }
+
+    #click_bg{
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        top: 463px;
+        right: 142px;
+        cursor: pointer;
+    }
+
+    #click_bg:hover{
+        background-color: #000;
+    }
+
+    /* section05*/
+
+    /* #sec05{
+        background-color: lightskyblue;
+    } */
+
+    #last_bg_shadow img{
+        margin-top: 120px;
+        margin-left: 447px;
+        position: relative;
+        z-index: -2;
+    }
+
+    #last_bg img{
+        position: absolute;
+        top: 120px;
+        left: 436px;
+        z-index: 1;
+    }
+
+    #text{
+        font-size: 35px;
+        font-family: 'GmarketSansMedium';
+        text-align: center;
+        color: #676767;
+        position: absolute;
+        top: 320px;
+        left: 738px;
+        z-index: 1;
+    }
+
+    #pocket img{
+        position: absolute;
+        bottom: -10px;
+        left: 600px;
+        z-index: 4;
+    }
+
+    #text_box03{
+        text-align: center;
+        font-size: 24px;
+        font-family: 'GmarketSansLight';
+        color: #fff;
+        position: absolute;
+        bottom: 120px;
+        left: 754px;
+        z-index: 4; 
+    }
+
+    #text_box03>p>span{
+        font-size: 28px;
+        font-family: 'GmarketSansMedium'
+    }
+
+    #text_box04{
+        width: 250px;
+        height: 50px;
+        background-color: #888888;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'GmarketSansMedium';
+        color: #3E4B51;
+        position: absolute;
+        bottom: 50px;
+        left: 840px;
+        z-index: 4;
+    }
+    
+    #text_box04>p{
+        margin-top: 14px;
+    }
+
+    #card img{
+        position: absolute; 
+        top: 570px;
+        left: 738px;
+        z-index: 3;
+    }
+
+    #card img:hover{
+        top: 500px;
+        transition: 0.5s;
+    }
+
+
+}
